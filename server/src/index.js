@@ -26,6 +26,10 @@ app.use(cookieParser());
 app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 300 }));
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
+app.get("/", (req, res) => {
+  res.send("✅ Budget Tracker API is running");
+});
+
 
 app.use("/api/auth", authRoutes);
 app.use("/api/transactions", txRoutes);

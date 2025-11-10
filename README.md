@@ -5,8 +5,7 @@ This app gives real–time dashboards, 6-month finance trends, automatic insight
 
 
 ## 🚀 Live Demo  
-Frontend: https://your-frontend-url  
-Backend API: https://your-backend-url/api/health ✅  
+https://buget-tracker-iota.vercel.app/  
 
 ## 🛠️ Tech Stack
 
